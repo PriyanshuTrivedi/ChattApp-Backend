@@ -16,7 +16,8 @@ const SocketServer=Socket.Server;
 dbConnection();
 
 const backendPort=5000;
-const frontend=`http://localhost:3000`;
+// const frontend=`http://localhost:3000`;
+const frontend='https://chattsite.netlify.app';
 
 // middlewares 
 app.use(cors());
